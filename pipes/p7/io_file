@@ -1,0 +1,6 @@
+total 36
+drwxrwxr-x 2 hadi hadi  4096 Nov 20 22:17 .
+drwxrwxr-x 7 hadi hadi  4096 Nov 20 22:00 ..
+-rw------- 1 hadi hadi   244 Nov 20 22:17 io_file
+-rwxrwxr-x 1 hadi hadi 16912 Nov 20 22:17 main
+-rw-rw-r-- 1 hadi hadi   647 Nov 20 22:17 main.c
