@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
     else {
         wait(NULL);
         int fd = open(file_name, O_RDWR | O_CREAT, S_IRUSR | S_IWUSR);
-        dup2(fd, 0);  //refirects input from io_file
+        dup2(fd, 0);  //redirects input from io_file
         close(fd);
         execlp("wc","wc", "-l", NULL);
     } //parent
