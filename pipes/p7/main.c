@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
     if (fork() == 0)
     {
         int fd = open(file_name, O_RDWR | O_CREAT, S_IRUSR | S_IWUSR);
-        dup2(fd, 1);  //refirects output to io_file
+        dup2(fd, 1);  //redirects output to io_file
         close(fd);
         execlp("ls","ls", "-al", NULL);    
     } //child
